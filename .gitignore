@@ -1,1 +1,3 @@
-.DS_Store
+[submodule "themes/hugo-resume"]
+	path = themes/hugo-resume
+	url = https://github.com/eddiewebb/hugo-resume.git
