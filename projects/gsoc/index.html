@@ -45,8 +45,6 @@ Publication
 </a>
 <a class=navbar-item href=/#lorem>Experience</a>
 <a class=navbar-item href=/#contact>Contact</a>
-<a class=navbar-item href=https://tanvidadu.github.io/es/>Español</a>
-<a class=navbar-item href=https://tanvidadu.github.io/de/>Deutsch</a>
 </div>
 </nav>
 <hr>
@@ -55,8 +53,27 @@ Publication
 <div class=has-text-centered>
 <img src=/projects/gsoc/1_QmkV3qgiCWmF_-wc496syg_hu8c9dc74641fecf5a1446a910b6e276f9_82187_1000x0_resize_box_3.png class=img-responsive alt=1_QmkV3qgiCWmF_-wc496syg.png>
 </div>
-<h2 id=sometimes-i-take-picture class=anchor-link><a href=#sometimes-i-take-picture>Sometimes I take picture</a></h2>
-<p>Created two new modules, the Feedback Sharing Module to provide a brief feedback of the images uploaded, and the Quiz module for users who have a high percentage of their uploads deleted. Both modules were included in the v2.8 release of the Wikimedia Commons App. They can currently be accessed by going to the Settings and opting in as a Beta Tester of these new features.</p>
+<h2 id=feedback-sharing-module-in-commons-app class=anchor-link><a href=#feedback-sharing-module-in-commons-app>Feedback Sharing Module in Commons App</a></h2>
+<p>The Wikimedia Commons Android app allows users to upload pictures from their Android phone/tablet to Wikimedia Commons. This project aimed at sharing feedback about uploaded photos, educating people about topic & copyright and adding some sort of gamification to drive engagement. This project was implemented in two phases-</p>
+<h4 id=1-feedback class=anchor-link><a href=#1-feedback>1) Feedback</a></h4>
+<ul>
+<li>Created a new module to display feedback.</li>
+<li>Fetched and displayed following metrics using REST api on Common application-
+<ol>
+<li>Number of images used in Wikipedia/Wikivoyage/etc articles</li>
+<li>Number of images that have been edited by someone else</li>
+<li>Number of images that have been featured</li>
+<li>Received barnstars</li>
+<li>Received thanks if the feature becomes available on Commons</li>
+</ol>
+</li>
+<li>Added Gamification to the module in the form of levels and badges</li>
+</ul>
+<h4 id=2-tutorial class=anchor-link><a href=#2-tutorial>2) Tutorial</a></h4>
+<ul>
+<li>Created a quiz for users who have a high upload revert rate</li>
+<li>Added support to display the tutorial again for users who have a high upload revert rate</li>
+</ul>
 </div>
 <div class=container>
 <hr>
